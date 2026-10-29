@@ -5,7 +5,7 @@ pkgrel=1
 pkgdesc="Pacman hook to automatically reinstall GRUB via grub-mkstandalone"
 arch=('x86_64')
 license=('MIT')
-depends=('grub')
+depends=('grub' 'sbctl')
 source=(
     "default.conf"
     "grub-secureboot-reinstall.hook"
